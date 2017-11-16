@@ -9,18 +9,9 @@
     display: flex;
     flex-wrap: flex;
     justify-content: space-between;
+    align-items: flex-start;
   }
   .product {
     flex-basis: 32%;
-    display: flex;
-    flex-direction: column;
-  }
-  .product__body {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-  }
-  .product__content {
-    flex-grow: 1;
   }
 }
