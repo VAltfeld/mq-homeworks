@@ -1,0 +1,9 @@
+@media handheld and (orientation: landscape) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    flex-basis: 50%;
+  }
+}
