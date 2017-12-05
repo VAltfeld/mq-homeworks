@@ -1,13 +1,16 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 @media (max-width: 479px) {
   
   .card {
     width: 100%;
     font-size: 20px;
+  }
+}
+
+@media (min-width: 480px) {
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
